@@ -28,6 +28,8 @@
         </nav>
     </header>
 
+    <main id="main-content">
+
     <!-- Hero Section -->
     <section class="hero">
         <img src="images/hero-background.jpg" alt="Samuel Munene" class="hero-bg-image">
@@ -38,8 +40,21 @@
                 <p>Passionate about creating beautiful, functional and mobile responsive web experiences</p>
                 <a href="#contact" class="cta-button">Get In Touch</a>
             </div>
+            
         </div>
     </section>
+
+    <div class="laptop-wrapper">
+        <div class="css-laptop">
+            <div class="laptop-screen">
+                <div class="code-line line1"></div>
+                <div class="code-line line2"></div>
+                <div class="code-line line3"></div>
+                <div class="code-line line4"></div>
+            </div>
+            <div class="laptop-base"></div>
+        </div>
+    </div>
 
     <!-- About Section -->
     <section id="about" class="section">
@@ -52,7 +67,6 @@
                     <p>I believe in writing clean, semantic code and creating websites that are not only visually appealing but also accessible and user-friendly. I'm eager to collaborate with other developers and learn from experienced professionals in the field.</p>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Programming Languages Section -->
@@ -64,31 +78,55 @@
                     <i class="fab fa-html5"></i>
                     <h3>HTML5</h3>
                     <p>Semantic markup and modern HTML practices</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="85"></div>
+                        <span class="progress-text">85%</span>
+                    </div>
                 </div>
                 <div class="skill-card">
                     <i class="fab fa-css3-alt"></i>
                     <h3>CSS3</h3>
                     <p>Responsive design, animations, and modern layouts</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="80"></div>
+                        <span class="progress-text">80%</span>
+                    </div>
                 </div>
                 <div class="skill-card">
                     <i class="fab fa-js-square"></i>
                     <h3>JavaScript</h3>
                     <p>Learning fundamentals and DOM manipulation</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="40"></div>
+                        <span class="progress-text">40%</span>
+                    </div>
                 </div>
                 <div class="skill-card">
                     <i class="fab fa-git-alt"></i>
                     <h3>Git</h3>
                     <p>Version control and collaborative development</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="70"></div>
+                        <span class="progress-text">70%</span>
+                    </div>
                 </div>
                 <div class="skill-card">
                     <i class="fab fa-php"></i>
                     <h3>PHP</h3>
                     <p>Backend Programming using php</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="60"></div>
+                        <span class="progress-text">60%</span>
+                    </div>
                 </div>
                 <div class="skill-card">
                     <i class="fab fa-laravel"></i>
                     <h3>Laravel Framework</h3>
-                    <p>Building mibile responsive laravel applications</p>
+                    <p>Building mobile responsive laravel applications</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="65"></div>
+                        <span class="progress-text">65%</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,13 +170,13 @@
                         <p>Focused learning path in HTML, CSS, and modern web development practices through online courses, documentation, and hands-on projects.</p>
                         <ul>
                             <li>Completed comprehensive HTML & CSS courses</li>
-                            <li>Studied responsive design principles</li>>
+                            <li>Studied responsive design principles</li>
                             <li>Learning JavaScript fundamentals</li>
                         </ul>
                     </div>
                 </div>
                 <div class="cv-download">
-                    <a href="your-cv.pdf" download class="download-btn">
+                    <a href="your-cv.pdf" download class="download-btn" aria-label="Download my CV">
                         <i class="fas fa-download"></i>
                         Download My CV
                     </a>
@@ -183,43 +221,138 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-info">
-                        <h3>Personal Landing Page</h3>
+                        <h3>Personal Portfolio</h3>
                         <p>A responsive personal website built with HTML and CSS featuring modern design and smooth animations.</p>
                         <div class="project-tech">
                             <span class="tech-tag">HTML</span>
                             <span class="tech-tag">CSS</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Live</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="#project1" class="project-link modal-trigger" aria-label="View project details">View Details</a>
+                            <a href="https://github.com/Samdci/Simple-Portfolio" class="project-link" target="_blank" aria-label="View project on GitHub">GitHub</a>
+                            <a href="https://sam-personal-portfolio001.netlify.app/" class="project-link" target="_blank" rel="noopener" aria-label="View live project">View Live</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-info">
-                        <h3>CSS Animation Showcase</h3>
-                        <p>A collection of creative CSS animations and transitions demonstrating various techniques and effects.</p>
+                        <h3>School Management System</h3>
+                        <p>Developing a School Management System using Laravel</p>
                         <div class="project-tech">
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">Animations</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">PHP</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">View Live</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="#project2" class="project-link modal-trigger" aria-label="View project details">View Details</a>
+                            <a href="https://github.com/Samdci/school-management" class="project-link" target="_blank" aria-label="View project on GitHub">GitHub</a>
+                            <a href="#" class="project-link" target="_blank" rel="noopener" aria-label="View live project">View Live</a>
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-info">
-                        <h3>Responsive Grid Layout</h3>
-                        <p>A modern grid-based layout showcasing responsive design principles and CSS Grid techniques.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS Grid</span>
+            </div>
+
+            <!-- CSS-Only Modals -->
+            <div id="project1" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-1" tabindex="0">
+                <div class="modal-content">
+                    <span id="close"></span>
+                    <a href="#close" class="modal-close" aria-label="Close Modal">&times;</a>
+                    <h3 id="modal-title-1">Personal Portfolio - Detailed View</h3>
+                    <div class="modal-body">
+                        <div class="project-image">
+                            <div class="placeholder-image">Project Screenshot</div>
                         </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">View Live</a>
-                            <a href="#" class="project-link">GitHub</a>
+                        <div class="project-details">
+                            <h4>Project Overview</h4>
+                            <p>This responsive personal website showcases modern web development practices using semantic HTML5 and advanced CSS3 techniques. The design emphasizes clean typography, smooth animations, and optimal user experience across all devices.</p>
+                            
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Fully responsive design with mobile-first approach</li>
+                                <li>CSS Grid and Flexbox layouts</li>
+                                <li>Smooth scroll navigation</li>
+                                <li>CSS animations and transitions</li>
+                                <li>Optimized performance and accessibility</li>
+                            </ul>
+                            
+                            <h4>Technologies Used</h4>
+                            <div class="tech-stack">
+                                <span class="tech-item">HTML5</span>
+                                <span class="tech-item">CSS3</span>
+                                <span class="tech-item">Responsive Design</span>
+                                <span class="tech-item">CSS Grid</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="project2" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-2" tabindex="0">
+                <div class="modal-content">
+                    <span id="close"></span>
+                    <a href="#close" class="modal-close" aria-label="Close Modal">&times;</a>
+                    <h3 id="modal-title-2">School Management System</h3>
+                    <div class="modal-body">
+                        <div class="project-image">
+                            <div class="placeholder-image">Animation Demo</div>
+                        </div>
+                        <div class="project-details">
+                            <h4>Project Overview</h4>
+                            <p> Building a Primary/Secondary School Management System that allows for the management of student records, teachers, exams, and grades, without the need for an excel sheet bulk upload for exams.</p>
+                            
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Student Management</li>
+                                <li>Teacher Management</li>
+                                <li>courses Management</li>
+                                <li>Exam Management</li>
+                                <li>Grade Management</li>
+                                <li>Interactive grades uploads with minimal need for a bulk upload excel sheet</li>
+                            </ul>
+                            
+                            <h4>Technologies Used</h4>
+                            <div class="tech-stack">
+                                <span class="tech-item">Laravel</span>
+                                <span class="tech-item">MySQL</span>
+                                <span class="tech-item">Bootstrap</span>
+                                <span class="tech-item">PHP</span>
+                                <span class="tech-item">HTML</span>
+                                <span class="tech-item">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="project3" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-3" tabindex="0">
+                <div class="modal-content">
+                    <a href="#" class="modal-close" aria-label="Close Modal">&times;</a>
+                    <h3 id="modal-title-3">Responsive Grid Layout - Detailed View</h3>
+                    <div class="modal-body">
+                        <div class="project-image">
+                            <div class="placeholder-image">Grid Layout Demo</div>
+                        </div>
+                        <div class="project-details">
+                            <h4>Project Overview</h4>
+                            <p>A comprehensive demonstration of CSS Grid capabilities, showcasing complex layouts that adapt seamlessly across different screen sizes and orientations.</p>
+                            
+                            <h4>Grid Features</h4>
+                            <ul>
+                                <li>Complex multi-column layouts</li>
+                                <li>Named grid areas for semantic structure</li>
+                                <li>Auto-fit and auto-fill responsive behavior</li>
+                                <li>Grid gap and alignment properties</li>
+                                <li>Nested grids for advanced layouts</li>
+                            </ul>
+                            
+                            <h4>Technologies Used</h4>
+                            <div class="tech-stack">
+                                <span class="tech-item">CSS Grid</span>
+                                <span class="tech-item">Responsive Design</span>
+                                <span class="tech-item">HTML5</span>
+                                <span class="tech-item">Modern CSS</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -267,12 +400,13 @@
                         <label for="message">Message</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
+                    <button type="submit" class="submit-btn" aria-label="Send Message">Send Message</button>
                 </form>
             </div>
         </div>
     </section>
 
+    </main>
     <!-- Footer -->
     <footer class="footer">
         <div class="container">

@@ -57,21 +57,24 @@ personalPortfolio/
 - Styled cards summarizing my educational background.
 - Smooth hover animations and blue accent theme.
 
-### 7. **Interests Section**
+### 7. **View/Download CV Button**
+- A view/download CV button that opens a view page with the CV and a download icon.
+
+### 8. **Interests Section**
 - Styled cards summarizing my interests.
 - All hover effects use smooth transitions and color shifts.
 
-### 8. **Projects Section**
+### 9. **Projects Section**
 - Styled project cards with technology tags and action buttons.
 - Each project features a screenshot (in `images/`), links to GitHub/live demo, and a modal for details.
 - **CSS-only modals**: Accessible and visually polished CSS modals in the project cards' 'view details' action button.
 
-### 9. **Contact Section**
+### 10. **Contact Section**
 - Netlify-powered contact form (no JS, just HTML attributes).
 - ARIA labels and focus states for accessibility.
 - Sends messages and redirects to `thanks.html` on success.
 
-### 10. **Thanks Page**
+### 11. **Thanks Page**
 - Custom thank you page with matching gradient background.
 - Includes a return-to-home button.
 

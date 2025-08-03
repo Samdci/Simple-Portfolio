@@ -57,8 +57,8 @@ personalPortfolio/
 - Styled cards summarizing my educational background.
 - Smooth hover animations and blue accent theme.
 
-### 7. **View/Download CV Button**
-- A view/download CV button that opens a view page with the CV and a download icon.
+### 7. **View and Download CV Buttons**
+- A view and download CV button that enables viewing and downloading the CV.
 
 ### 8. **Interests Section**
 - Styled cards summarizing my interests.
@@ -107,7 +107,7 @@ personalPortfolio/
 
 ## 📄 License
 
-This portfolio is open-source and free to use or adapt for your own personal website. Attribution appreciated!
+This portfolio is open-source and free to use. Attribution appreciated!
 
 ---
 

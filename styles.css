@@ -375,6 +375,21 @@ body {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     opacity: 0.8;
+    width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #2563eb;
+    animation: typing 3s steps(40, end) infinite alternate, blink-caret 0.7s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #2563eb; }
 }
 
 .highlight {
@@ -1226,6 +1241,11 @@ body {
     display: flex;
     align-items: center;
     gap: 1rem;
+    transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s;
+}
+.contact-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 24px rgba(37,99,235,0.11), 0 1.5px 6px rgba(124,58,237,0.07);
 }
 
 .contact-item i {
@@ -1310,6 +1330,38 @@ body {
 
 .submit-btn:hover::before {
     left: 100%;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 0 6px 24px rgba(37,99,235,0.13), 0 1.5px 6px rgba(124,58,237,0.11);
+    cursor: pointer;
+    z-index: 1200;
+    opacity: 0.85;
+    transition: transform 0.25s, box-shadow 0.25s, opacity 0.25s;
+    text-decoration: none;
+}
+.back-to-top:hover,
+.back-to-top:focus-visible {
+    transform: scale(1.12) translateY(-4px);
+    box-shadow: 0 12px 36px rgba(37,99,235,0.18), 0 3px 12px rgba(124,58,237,0.13);
+    opacity: 1;
+    outline: none;
+}
+.back-to-top i {
+    pointer-events: none;
 }
 
 /* Footer */

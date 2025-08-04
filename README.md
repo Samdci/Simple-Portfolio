@@ -40,7 +40,7 @@ personalPortfolio/
 - Navigation links direct to all main sections.
 
 ### 2. **Hero Section**
-- Strong introductory message with background overlay and personal background image.
+- Strong introductory message with laptop animation and personal image.
 
 ### 3. **About Section**
 - Brief, engaging summary of background and values.

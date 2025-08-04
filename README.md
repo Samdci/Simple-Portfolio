@@ -1,12 +1,14 @@
 # Samuel Munene – Personal Portfolio
 
-This is a modern, accessible, and visually striking web developer portfolio built with pure HTML and CSS. This project showcases advanced CSS techniques (glassmorphism, gradients, responsive layouts), accessibility best practices, and a professional personal brand.
+This is a modern, accessible, and visually striking web developer portfolio built with pure HTML and CSS. This project showcases beautiful CSS techniques, accessibility best practices, and a professional personal brand.
+
+My Portfolio Website is hosted using netlify. Feel free to view it live: https://sam-personal-portfolio001.netlify.app/
 
 ---
 
 ## 🚀 Features
 
-- **No JavaScript Required:** 100% HTML & CSS; perfect for hackathons and static hosting.
+- **No JavaScript Required:** 100% HTML & CSS
 - **Glassmorphism & Gradients:** Modern card designs with glass effects, gradients, and soft shadows.
 - **Dynamic Navigation:** Fixed navbar with gradient brand name and profile photo avatar.
 - **Responsive Design:** Mobile-first layouts using Flexbox and Grid for all sections.
